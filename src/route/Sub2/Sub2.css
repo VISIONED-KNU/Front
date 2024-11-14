@@ -122,17 +122,17 @@
   overflow: hidden;
 }
 .sub-2 .div2 {
-  color: #121417;
+  color: #000000;
   text-align: left;
   font-family: "NotoSerif-DisplayBold", sans-serif;
   font-size: 32px;
-  line-height: 21px;
+  line-height: 55px;
   font-weight: bold;
-  position: relative;
-  width: 416px;
-  height: 140px;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  position: absolute;
+  left: 45px;
+  top: 150px;
+  width: 338px;
+  height: 72px;
 }
 .sub-2 .line-4 {
   margin-top: -1px;

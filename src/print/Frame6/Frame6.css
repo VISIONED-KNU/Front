@@ -174,3 +174,20 @@
   line-height: 21px;
   font-weight: 400;
 }
+
+.div3 {
+  color: #121417;
+  text-align: left;
+  font-family: "NotoSerif-DisplayBold", sans-serif;
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: bold;
+  position: absolute;
+  left: 27px;
+  top: 150px;
+  width: 468px;
+  height: 243px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

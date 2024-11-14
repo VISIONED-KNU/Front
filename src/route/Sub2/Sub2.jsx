@@ -19,83 +19,80 @@ export const Sub2 = ({ className, ...props }) => {
   };
 
     return (
-    <div className={"sub-2 " + className}>
-      <div className="rectangle-7"
-           onClick={handleNavigateToCheck} style={{ cursor: "pointer" }}></div>
-      <div className="rectangle-8"
-           onClick={handleNavigateToCheck} style={{ cursor: "pointer" }}></div>
-      <img
-        className="image-removebg-preview-19-2"
-        src="image-removebg-preview-19-20.png"
-      />
-      <div className="rectangle-5"></div>
-      <div className="depth-4-frame-5">
-        <div className="div">
-          <br />현 위치(경북대 정문){" "}
-        </div>
-      </div>
-      <div className="rectangle-6"></div>
-      <div className="depth-4-frame-6">
-        <div className="div">
-          <br />
-          수성코오롱하늘채{" "}
-        </div>
-      </div>
-      <div className="depth-4-frame-52">
-        <div className="div2">
-          <br />
-          원하는 경로를 선택하세요.{" "}
-        </div>
-      </div>
-      <div className="line-4"></div>
-      <div className="depth-4-frame-12">
-        <div className="_1500-0-5">
+        <div className={"sub-2 " + className}>
+          <div className="rectangle-7"
+               onClick={handleNavigateToCheck} style={{cursor: "pointer"}}></div>
+          <div className="rectangle-8"
+               onClick={handleNavigateToCheck} style={{cursor: "pointer"}}></div>
+          <img
+              className="image-removebg-preview-19-2"
+              src="image-removebg-preview-19-20.png"
+          />
+          <div className="rectangle-5"></div>
+          <div className="depth-4-frame-5">
+            <div className="div">
+              <br/>현위치(경북대 정문){" "}
+            </div>
+          </div>
+          <div className="rectangle-6"></div>
+          <div className="depth-4-frame-6">
+            <div className="div">
+              <br/>
+              수성코오롱하늘채{" "}
+            </div>
+          </div>
+          <div className="div2">
+            원하는 경로를 선택하세요.
+          </div>
+          <div className="line-4"></div>
+          <div className="depth-4-frame-12">
+            <div className="_1500-0-5">
           <span>
             <span className="_1500-0-5-span">
-              <br />
+              <br/>
             </span>
             <span className="_1500-0-5-span2">
               비용: 1500원 | 환승 0회 | 도보 5분
-              <br />
+              <br/>
             </span>
           </span>{" "}
-        </div>
-      </div>
-      <div className="depth-4-frame-14">
-        <div className="_1500-1-17">
+            </div>
+          </div>
+          <div className="depth-4-frame-14">
+            <div className="_1500-1-17">
           <span>
             <span className="_1500-1-17-span">
-              <br />
+              <br/>
             </span>
             <span className="_1500-1-17-span2">
               비용: 1500원 | 환승 1회 | 도보 17분
-              <br />
+              <br/>
             </span>
           </span>{" "}
-        </div>
-      </div>
-      <div className="_65">(65세 이상 무료) </div>
-      <div className="div3">동일초등학교 앞 하차 </div>
-      <div className="div4">수성시장역 하차 </div>
-      <img
-        className="image-removebg-preview-23-1"
-        src="image-removebg-preview-23-10.png"
-      />
-      <img
-        className="image-removebg-preview-24-1"
-        src="image-removebg-preview-24-10.png"
-      />
-      <div className="rectangle-52"></div>
-      <BackButton
-          onClick={handleGoBack} label="뒤로가기"/>
-        <div className="depth-3-frame-2">
-          <div className="div5">
+            </div>
+          </div>
+          <div className="_65">(65세 이상 무료)</div>
+          <div className="div3">동일초등학교 앞 하차</div>
+          <div className="div4">수성시장역 하차</div>
+          <img
+              className="image-removebg-preview-23-1"
+              src="image-removebg-preview-23-10.png"
+          />
+          <img
+              className="image-removebg-preview-24-1"
+              src="image-removebg-preview-24-10.png"
+          />
+          <div className="rectangle-52"></div>
+          <BackButton
+              onClick={handleGoBack} label="뒤로가기"/>
+          <div className="depth-3-frame-2">
+            <div className="div5">
             <span>
                 <CallButton
-                 onClick={handleNavigateToCall} label="안내원 도움 요청"/>
+                    onClick={handleNavigateToCall} label="안내원 도움 요청"/>
             </span>{" "}
+            </div>
           </div>
-      </div>
-    </div>
-  );
+        </div>
+    );
 };
