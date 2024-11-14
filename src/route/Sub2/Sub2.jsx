@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import CallButton from "../../share/CallButton.jsx";
 import BackButton from "../../share/BackButton.jsx";
 
-
 export const Sub2 = ({ className, ...props }) => {
     const navigate = useNavigate();
 

@@ -8,6 +8,7 @@ import App from "./App"; // Assuming App is the main component
 import { Main } from "./Main/Main"; // Adjust path as necessary
 import VoiceApp from "./voice/App.jsx"; // Adjust path as necessary
 import RouteApp from "./route/App.jsx";
+import RouteOptionApp from "./route_option/App.jsx";
 import CheckApp from "./check/App.jsx";
 import CallApp from "./call/App.jsx";
 import PrintApp from "./print/App.jsx";
@@ -22,6 +23,7 @@ root.render(
                 <Route path="/" element={<Main />} />
                 <Route path="/voice" element={<VoiceApp />} />
                 <Route path="/route" element={<RouteApp />} />
+                <Route path="/route_option" element={<RouteOptionApp />} />
                 <Route path="/app" element={<App />} />
                 <Route path="/check" element={<CheckApp />} />
                 <Route path="/call" element={<CallApp />} />

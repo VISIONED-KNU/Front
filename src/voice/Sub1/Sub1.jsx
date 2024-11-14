@@ -16,13 +16,9 @@ export const Sub1 = ({ className, ...props }) => {
     navigate("/call"); // Navigate to the App.jsx in the 'call' directory
   };
 
-  const handleNavigateToRoute = () => {
-    navigate("/route"); // Update this path if "App.jsx" has a different route, e.g., "/app"
+  const handleNavigateToRouteOption = () => {
+    navigate("/route_option"); // Update this path if "App.jsx" has a different route, e.g., "/app"
   };
-
-  const handleRecodring = () => {
-
-  }
 
   return (
     <div className={"sub-1 " + className}>
@@ -33,7 +29,7 @@ export const Sub1 = ({ className, ...props }) => {
               <BackButton
                   onClick={handleGoBack} label="뒤로가기"/>
             <div className="rectangle-2">
-              <button className="record-button" onClick={handleNavigateToRoute} style={{cursor: "pointer"}}>
+              <button className="record-button" onClick={handleNavigateToRouteOption} style={{cursor: "pointer"}}>
                 버튼을 누르고
                 <br/>
                 도착지를 말해주세요.{" "}
@@ -45,13 +41,9 @@ export const Sub1 = ({ className, ...props }) => {
                   className="div4"
                   value={text}
                   onChange={(e) => setText(e.target.value)}
-                  placeholder="목적지"
+                  placeholder="  목적지"
               />
             </div>
-            <img
-                className="image-removebg-preview-18-1"
-                src="image-removebg-preview-18-10.png"
-            />
             <img
                 className="image-removebg-preview-19-2"
                 src="image-removebg-preview-19-20.png"
