@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import TypewriterText from "./TypewriterText";
 import "./Main.css";
 
 export const Main = ({ className, ...props }) => {
@@ -9,24 +10,12 @@ export const Main = ({ className, ...props }) => {
         navigate("/voice");
     };
 
+    const handleNavigateToCall = () => {
+        navigate("/call");
+    }
+
     return (
     <div className={"main " + className}>
-      <div className="group-4">
-        <div className="group-3">
-          <div className="depth-3-frame-2">
-            <div className="depth-4-frame-0">
-              <div className="div">
-                <span>
-                  <span className="div-span">
-                    <br />
-                  </span>
-                  <span className="div-span2">안내원 도움 요청하기</span>
-                </span>{" "}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <img
         className="image-removebg-preview-19-2"
         src="image-removebg-preview-19-20.png"
@@ -44,7 +33,6 @@ export const Main = ({ className, ...props }) => {
             <button onClick={handleNavigate} className="navigate-button">
                 시작하기
             </button>
-            <div className="depth-4-frame-12"></div>
         </div>
         <div className="line-5"></div>
     </div>

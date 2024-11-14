@@ -1,5 +1,7 @@
 import "./Sub2.css";
 import { useNavigate } from "react-router-dom";
+import CallButton from "../../share/CallButton.jsx";
+import BackButton from "../../share/BackButton.jsx";
 
 
 export const Sub2 = ({ className, ...props }) => {
@@ -85,27 +87,15 @@ export const Sub2 = ({ className, ...props }) => {
         src="image-removebg-preview-24-10.png"
       />
       <div className="rectangle-52"></div>
-        <div className="depth-4-frame-53">
-            <div className="div5" onClick={handleGoBack} style={{cursor: "pointer"}}>
-          <span>
-            <span className="div-5-span">
-              <br/>
-            </span>
-            <span className="div-5-span2">뒤로가기</span>
-          </span>{" "}
-            </div>
-        </div>
+      <BackButton
+          onClick={handleGoBack} label="뒤로가기"/>
         <div className="depth-3-frame-2">
-            <div className="depth-4-frame-0">
           <div className="div5">
             <span>
-              <span className="div-5-span3">
-                <br />
-              </span>
-              <span onClick={handleNavigateToCall} className="div-5-span4">안내원 도움 요청하기</span>
+                <CallButton
+                 onClick={handleNavigateToCall} label="안내원 도움 요청"/>
             </span>{" "}
           </div>
-        </div>
       </div>
     </div>
   );

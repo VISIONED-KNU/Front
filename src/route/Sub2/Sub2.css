@@ -127,7 +127,7 @@
   font-family: "NotoSerif-DisplayBold", sans-serif;
   font-size: 32px;
   line-height: 21px;
-  font-weight: 400;
+  font-weight: bold;
   position: relative;
   width: 416px;
   height: 140px;
@@ -180,6 +180,7 @@
   color: #121417;
   font-family: "NotoSerif-DisplayBold", sans-serif;
   font-size: 20px;
+  margin-left: 30px;
   line-height: 21px;
   font-weight: 400;
 }
@@ -223,6 +224,7 @@
 ._1500-1-17-span2 {
   color: #121417;
   font-family: "NotoSerif-DisplayBold", sans-serif;
+  margin-left: 30px;
   font-size: 20px;
   line-height: 21px;
   font-weight: 400;
@@ -319,42 +321,25 @@
   width: 326px;
   height: 57px;
   text-overflow: ellipsis;
-  overflow: hidden;
+  overflow: visible;
 }
-.div-5-span {
-  color: #121417;
-  font-family: "NotoSerif-DisplayBold", sans-serif;
-  font-size: 32px;
-  line-height: 21px;
-  font-weight: 400;
-}
-.div-5-span2 {
-  color: #52595f;
-  font-family: "NotoSerif-DisplayBold", sans-serif;
-  font-size: 32px;
-  line-height: 21px;
-  font-weight: 400;
-}
+
 .sub-2 .depth-3-frame-2 {
-  background: #0d990a;
-  border-radius: 12px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
+  background: transparent;
   padding: 0px 16px 0px 16px;
   display: flex;
   flex-direction: row;
   gap: 0px;
   align-items: center;
   justify-content: center;
-  width: 358px;
+  width: 343px;
   height: 61px;
   min-width: 84px;
   max-width: 480px;
   position: absolute;
   left: 19px;
   top: 750px;
-  overflow: hidden;
+  overflow: visible;
 }
 .sub-2 .depth-4-frame-0 {
   display: flex;

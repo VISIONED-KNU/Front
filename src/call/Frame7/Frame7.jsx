@@ -1,6 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Frame7.css";
+import BackButton from "../../share/BackButton.jsx";
+
 
 export const Frame7 = ({ className, ...props }) => {
     const navigate = useNavigate();
@@ -11,23 +13,12 @@ export const Frame7 = ({ className, ...props }) => {
 
     return (
     <div className={"frame-7 " + className}>
-      <div className="rectangle-1"></div>
+      <BackButton
+          onClick={handleNavigateToMain} label="처음으로"/>
       <img
         className="image-removebg-preview-19-2"
-        src="image-removebg-preview-19-20.png"
-      />
-      <div className="depth-4-frame-5">
-        <div className="div">
-          <span>
-            <span className="div-span">
-              <br />
-            </span>
-            <span onClick={handleNavigateToMain} className="div-span2">처음으로</span>
-          </span>{" "}
-        </div>
-      </div>
-      <div className="image-7"></div>
-      <div className="image-8"></div>
+        src="image-removebg-preview-19-20.png"/>
+
       <div className="depth-4-frame-24">
         <div className="div2">
           <br />
