@@ -58,5 +58,4 @@ export const Choose = ({ className, ...props }) => {
         </div>
     );
 };
-
-export default choose;
+export default Choose;

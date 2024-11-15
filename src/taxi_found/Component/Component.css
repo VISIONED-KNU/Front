@@ -218,6 +218,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div .info_taxi {
   color: #000000;
   text-align: left;
@@ -225,7 +226,7 @@
   font-size: 32px;
   line-height: 40px;
   font-weight: 400;
-  position: absolute;
+  position: fixed;
   left: 204px;
   top: 470px;
   width: 153px;
@@ -237,7 +238,7 @@
 .div .image-15 {
   width: 122px;
   height: 161px;
-  position: absolute;
+  position: fixed;
   left: 44px;
   top: 420px;
   object-fit: cover;
@@ -318,4 +319,18 @@
   left: 19px;
   top: 671px;
   box-shadow: none;
+}
+.line-middlelower {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 358px;
+  height: 0px;
+  position: absolute;
+  left: 16px;
+  top: 645px;
+  box-shadow: none;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
 }

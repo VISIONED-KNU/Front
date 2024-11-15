@@ -28,6 +28,7 @@ export const Component = ({ className, ...props }) => {
               src="deagu-logo.png"
           />
           <div className="line-upper"></div>
+          <div className="line-middlelower"></div>
           <BackButton
               onClick={handleGoBack} label="뒤로가기"/>
           <div className="call-button-frame">
@@ -35,7 +36,7 @@ export const Component = ({ className, ...props }) => {
           </div>
 
 
-          <img className="image-13" src="deaguro.png"/>
+
           <div className="show-big-text">
               <br/>
               근처에 있는
@@ -45,15 +46,16 @@ export const Component = ({ className, ...props }) => {
               8분 후 도착 예정
           </div>
 
-
-          <div className="info_taxi">
-              김경대
-              <br/>
-              12바 0159
-              <br/>
-              YF소나타
+          <div className="taxi-info-frame">
+              <div className="info_taxi">
+                  김경대
+                  <br/>
+                  12바 0159
+                  <br/>
+                  YF소나타
+              </div>
+              <img className="image-15" src="people.png"/>
           </div>
-          <img className="image-15" src="people.png"/>
 
           <div className="print_taxi_to">
               <CallButton

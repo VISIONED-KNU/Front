@@ -42,8 +42,8 @@ export const Component = ({ className, ...props }) => {
               <CallButton onClick={handleNavigateToCall}/>
           </div>
           <div className="show-small-text">도착지를 듣고있어요.</div>
-          <div className="div4">아래 도착지가 맞나요?</div>
-          <div className="div5">동대구역</div>
+          <div className="below_dest">아래 도착지가 맞나요?</div>
+          <div className="destination">동대구역</div>
 
           <img className="mic" src="mic.png"/>
 

@@ -35,10 +35,8 @@ export const Frame6 = ({ className, ...props }) => {
           </div>
 
           <div className="call-button-frame">
-              <div className="div2">
               <CallButton
                   onClick={handleNavigateToCall}/>
-              </div>
           </div>
           <BackButton
               onClick={handleGoBack} label="뒤로가기"/>

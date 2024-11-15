@@ -23,6 +23,7 @@ export const Group8 = ({ className, ...props }) => {
   return (
       <div className={"group-8 " + className}>
           <div className="line-upper"></div>
+          <div className="line-middlelower2"></div>
           <img className="deagu-logo"
                src="deagu-logo.png"/>
 
@@ -78,11 +79,11 @@ export const Group8 = ({ className, ...props }) => {
           </div>
 
           <BackButton onClick={handleGoBack}/>
-          <div className="depth-2-frame-0">
+          <div className="goto_print">
               <CallButton
                   onClick={handleNavigateToPrint} label="약도 출력"/>
           </div>
-          <div className="call-button-frame">
+          <div className="print-call-button-frame">
               <CallButton onClick={handleNavigateToCall}></CallButton>
           </div>
       </div>
