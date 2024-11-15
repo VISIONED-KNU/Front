@@ -15,14 +15,7 @@
   top: 0px;
   overflow: hidden;
 }
-.group-8 .image-removebg-preview-19-2 {
-  width: 102px;
-  height: 103px;
-  position: absolute;
-  left: 288px;
-  top: -6px;
-  object-fit: cover;
-}
+
 .group-8 .group-7 {
   position: absolute;
   inset: 0;
@@ -246,22 +239,10 @@
   width: 483px;
   position: absolute;
   left: 24px;
-  top: 141px;
+  top: 170px;
   overflow: hidden;
 }
-.group-8 .div4 {
-  color: #121417;
-  text-align: left;
-  font-family: "NotoSerif-DisplayBold", sans-serif;
-  font-size: 32px;
-  line-height: 21px;
-  font-weight: bold;
-  position: relative;
-  align-self: stretch;
-  height: 63px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
+
 .group-8 .image-1 {
   width: 294px;
   height: 136px;
@@ -738,21 +719,6 @@
   font-size: 32px;
   line-height: 21px;
   font-weight: 400;
-}
-.group-8 .depth-3-frame-2 {
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: center;
-  width: 343px;
-  height: 61px;
-  min-width: 84px;
-  max-width: 480px;
-  position: absolute;
-  left: 19px;
-  top: 748px;
-  overflow: visible;
 }
 .group-8 .div6 {
   text-align: center;

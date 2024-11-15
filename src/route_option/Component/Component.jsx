@@ -2,6 +2,7 @@ import "./Component.css";
 import { useNavigate } from "react-router-dom";
 import CallButton from "../../share/CallButton.jsx";
 import BackButton from "../../share/BackButton.jsx";
+import "../../share/allshared.css"
 import React, {useState} from "react";
 
 export const Component = ({ className, ...props }) => {
@@ -30,19 +31,20 @@ export const Component = ({ className, ...props }) => {
           <BackButton
               onClick={handleGoBack} label="뒤로가기"/>
           <div className="rectangle-9"></div>
-          <div className="line-2"></div>
-          <div className="line-9"></div>
+          <div className="line-upper"></div>
+          <div className="line-middle"></div>
+          <div className="line-lower"></div>
           <img
-              className="image-removebg-preview-19-3"
-              src="image-removebg-preview-19-20.png"
+              className="deagu-logo"
+              src="deagu-logo.png"
           />
-          <div className="depth-3-frame-2">
+          <div className="call-button-frame">
               <span>
                   <CallButton
                       onClick={handleNavigateToCall} label="안내원 도움 요청"/>
               </span>{" "}
           </div>
-          <div className="div3">도착지를 듣고있어요.</div>
+          <div className="show-small-text">도착지를 듣고있어요.</div>
           <div className="div4">아래 도착지가 맞나요?</div>
           <div className="div5">동대구역</div>
           <div className="ellipse-1"></div>

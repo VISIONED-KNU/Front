@@ -2,6 +2,7 @@ import "./Sub2.css";
 import { useNavigate } from "react-router-dom";
 import CallButton from "../../share/CallButton.jsx";
 import BackButton from "../../share/BackButton.jsx";
+import "../../share/allshared.css"
 
 export const Sub2 = ({ className, ...props }) => {
     const navigate = useNavigate();
@@ -20,13 +21,15 @@ export const Sub2 = ({ className, ...props }) => {
 
     return (
         <div className={"sub-2 " + className}>
+            <div className="line-upper"></div>
+            <div className="line-lower"></div>
           <div className="rectangle-7"
                onClick={handleNavigateToCheck} style={{cursor: "pointer"}}></div>
           <div className="rectangle-8"
                onClick={handleNavigateToCheck} style={{cursor: "pointer"}}></div>
           <img
-              className="image-removebg-preview-19-2"
-              src="image-removebg-preview-19-20.png"
+              className="deagu-logo"
+              src="deagu-logo.png"
           />
           <div className="rectangle-5"></div>
           <div className="depth-4-frame-5">
@@ -41,10 +44,10 @@ export const Sub2 = ({ className, ...props }) => {
               수성코오롱하늘채{" "}
             </div>
           </div>
-          <div className="div2">
+          <div className="show-middle-text">
             원하는 경로를 선택하세요.
           </div>
-          <div className="line-4"></div>
+          <div className="line-uppermiddle"></div>
           <div className="depth-4-frame-12">
             <div className="_1500-0-5">
           <span>
@@ -82,10 +85,9 @@ export const Sub2 = ({ className, ...props }) => {
               className="image-removebg-preview-24-1"
               src="image-removebg-preview-24-10.png"
           />
-          <div className="rectangle-52"></div>
           <BackButton
               onClick={handleGoBack} label="뒤로가기"/>
-          <div className="depth-3-frame-2">
+          <div className="call-button-frame">
             <div className="div5">
             <span>
                 <CallButton

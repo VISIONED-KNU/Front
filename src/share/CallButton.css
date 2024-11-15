@@ -18,3 +18,21 @@
     transform: scale(1.05);
     overflow: visible;
 }
+
+.call-button-frame {
+    background: transparent;
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 343px;
+    height: 61px;
+    min-width: 84px;
+    max-width: 480px;
+    position: absolute;
+    left: 19px;
+    top: 760px;
+    overflow: visible;
+}

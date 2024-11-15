@@ -2,6 +2,7 @@ import "./Group8.css";
 import { useNavigate } from "react-router-dom";
 import CallButton from "../../share/CallButton.jsx";
 import BackButton from "../../share/BackButton.jsx";
+import "../../share/allshared.css"
 import React from "react";
 
 export const Group8 = ({ className, ...props }) => {
@@ -21,9 +22,10 @@ export const Group8 = ({ className, ...props }) => {
 
   return (
       <div className={"group-8 " + className}>
+          <div className="line-upper"></div>
           <img
-              className="image-removebg-preview-19-2"
-              src="image-removebg-preview-19-20.png"
+              className="deagu-logo"
+              src="deagu-logo.png"
           />
           <div className="depth-2-frame-0">
             <CallButton
@@ -38,11 +40,8 @@ export const Group8 = ({ className, ...props }) => {
               className="image-removebg-preview-21-1"
               src="image-removebg-preview-21-10.png"
           />
-          <div className="depth-4-frame-5">
-            <div className="div4">
-              <br/>
+          <div className="show-middle-text">
               선택한 경로를 확인하세요.{" "}
-            </div>
           </div>
           <div className="depth-2-frame-2">
             <div className="depth-3-frame-03">
@@ -96,7 +95,7 @@ export const Group8 = ({ className, ...props }) => {
           <BackButton
               onClick={handleGoBack} label="뒤로가기"/>
         </div>
-        <div className="depth-3-frame-2">
+        <div className="call-button-frame">
             <div className="div6">
             <span>
               <CallButton

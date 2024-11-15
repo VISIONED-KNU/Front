@@ -21,70 +21,7 @@
   top: 502px;
   box-shadow: transparent;
 }
-.div .line-7 {
-  margin-top: -1px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px 0 0 0;
-  width: 305.01px;
-  height: 0px;
-  position: absolute;
-  left: 41px;
-  top: 124px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, 1);
-}
-.div .line-9 {
-  margin-top: -1px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px 0 0 0;
-  width: 305.01px;
-  height: 0px;
-  position: absolute;
-  left: 41px;
-  top: 406px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, 1);
-}
-.div .line-8 {
-  margin-top: -1px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px 0 0 0;
-  width: 305.01px;
-  height: 0px;
-  position: absolute;
-  left: 41px;
-  top: 745px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, 1);
-}
-.div .image-removebg-preview-19-3 {
-  width: 102px;
-  height: 103px;
-  position: absolute;
-  left: 291px;
-  top: 4px;
-  object-fit: cover;
-}
-.div .depth-3-frame-2 {
-  background: transparent;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: center;
-  width: 343px;
-  height: 61px;
-  min-width: 84px;
-  max-width: 480px;
-  position: absolute;
-  left: 19px;
-  top: 748px;
-  overflow: visible;
-}
+
 .div .depth-4-frame-1 {
   display: flex;
   flex-direction: column;
@@ -120,19 +57,6 @@
   font-size: 32px;
   line-height: 21px;
   font-weight: 400;
-}
-.div .div3 {
-  color: #000000;
-  text-align: left;
-  font-family: "NotoSerif-DisplayBold", sans-serif;
-  font-size: 35px;
-  line-height: 55px;
-  font-weight: bold;
-  position: absolute;
-  left: 45px;
-  top: 150px;
-  width: 338px;
-  height: 72px;
 }
 .div .div4 {
   color: #000000;

@@ -1,0 +1,83 @@
+.deagu-logo {
+    width: 85px;
+    height: 103px;
+    position: absolute;
+    left: 280px;
+    top: 30px;
+    object-fit: cover;
+}
+
+.line-upper {
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 358px;
+    height: 0px;
+    position: absolute;
+    left: 16px;
+    top: 150px;
+    transform-origin: 0 0;
+    transform: scale(1.05);
+}
+
+.line-lower {
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 358px;
+    height: 0px;
+    position: absolute;
+    left: 16px;
+    top: 739px;
+    box-shadow: none;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+
+}
+
+.show-big-text {
+    color: #121417;
+    text-align: left;
+    font-family: "NotoSerif-DisplayBold", sans-serif;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: bold;
+    position: absolute;
+    left: 27px;
+    top: 150px;
+    width: 468px;
+    height: 243px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.show-middle-text {
+    color: #000000;
+    text-align: left;
+    font-family: "NotoSerif-DisplayBold", sans-serif;
+    font-size: 32px;
+    line-height: 55px;
+    font-weight: bold;
+    position: absolute;
+    left: 27px;
+    top: 170px;
+    width: 338px;
+    height: 72px;
+}
+
+.show-small-text {
+    color: #000000;
+    text-align: left;
+    font-family: "NotoSerif-DisplayBold", sans-serif;
+    font-size: 35px;
+    line-height: 55px;
+    font-weight: bold;
+    position: absolute;
+    left: 27px;
+    top: 170px;
+    width: 338px;
+    height: 72px;
+}
