@@ -5,7 +5,7 @@ import BackButton from "../share/BackButton.jsx";
 import "./choose.css";
 import "../share/allshared.css";
 
-export const choose = ({ className, ...props }) => {
+export const Choose = ({ className, ...props }) => {
     const navigate = useNavigate();
 
     const handleGoBack = () => {
