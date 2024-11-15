@@ -39,25 +39,21 @@ export const Component = ({ className, ...props }) => {
               src="deagu-logo.png"
           />
           <div className="call-button-frame">
-              <span>
-                  <CallButton
-                      onClick={handleNavigateToCall} label="안내원 도움 요청"/>
-              </span>{" "}
+              <CallButton onClick={handleNavigateToCall}/>
           </div>
           <div className="show-small-text">도착지를 듣고있어요.</div>
           <div className="div4">아래 도착지가 맞나요?</div>
           <div className="div5">동대구역</div>
-          <div className="ellipse-1"></div>
-          <div className="ellipse-2"></div>
-          <div className="ellipse-4"></div>
-          <div className="ellipse-6"></div>
-          <div className="ellipse-7"></div>
-          <div className="ellipse-5"></div>
-          <div className="ellipse-3"></div>
-          <div className="rectangle-10"></div>
-          <div className="rectangle-11"></div>
-          <button className="div6" onClick={handleNavigateToRoute} style={{cursor: "pointer"}}> 예</button>
-          <button className="div7" onClick={handleFresh} style={{cursor: "pointer"}}> 아니오</button>
+
+          <img className="mic" src="mic.png"/>
+
+          <button className="div6"
+                  onClick={handleNavigateToRoute} style={{cursor: "pointer"}}> 예
+          </button>
+          <button className="div7"
+                  onClick={handleFresh} style={{cursor: "pointer"}}> 아니오
+          </button>
+
       </div>
   );
 };

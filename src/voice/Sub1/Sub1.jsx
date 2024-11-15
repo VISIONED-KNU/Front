@@ -54,12 +54,7 @@ export const Sub1 = ({ className, ...props }) => {
           </div>
         </div>
         <div className="call-button-frame">
-            <div className="div">
-              <span>
-                  <CallButton
-                      onClick={handleNavigateToCall} label="안내원 도움 요청"/>
-              </span>{" "}
-            </div>
+          <CallButton onClick={handleNavigateToCall}/>
         </div>
       </div>
     </div>

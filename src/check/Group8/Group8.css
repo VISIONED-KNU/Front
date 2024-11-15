@@ -115,7 +115,7 @@
   height: 100px;
   position: absolute;
   left: 30px;
-  top: 210px;
+  top: 220px;
   overflow: hidden;
   padding: 0;
   margin: 0;
@@ -222,13 +222,13 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.group-8 .image-removebg-preview-21-1 {
-  width: 71px;
-  height: 90px;
-  position: absolute;
+.group-8 .image-insert {
+  width: 8%;
+  height: 8%;
+  position: fixed;
   left: 27px;
-  top: 290px;
   object-fit: cover;
+  overflow: hidden;
 }
 .group-8 .depth-4-frame-5 {
   display: flex;
@@ -565,7 +565,7 @@
   top: 562px;
   overflow: hidden;
 }
-.group-8 ._5 {
+.group-8 .text-box {
   color: #121417;
   text-align: right;
   font-family: "NotoSerif-DisplayBold", sans-serif;
@@ -648,22 +648,7 @@
   height: 592px;
   position: static;
 }
-.group-8 .image-removebg-preview-21-3 {
-  width: 80.58px;
-  height: 95px;
-  position: absolute;
-  left: 30px;
-  top: 301px;
-  object-fit: cover;
-}
-.group-8 .image-removebg-preview-21-4 {
-  width: 80.58px;
-  height: 95px;
-  position: absolute;
-  left: 30px;
-  top: 545px;
-  object-fit: cover;
-}
+
 .group-8 .rectangle-1 {
   background: #a3cca2;
   border-radius: 10px;
@@ -720,29 +705,4 @@
   line-height: 21px;
   font-weight: 400;
 }
-.group-8 .div6 {
-  text-align: center;
-  font-family: "NotoSerif-DisplayBold", sans-serif;
-  font-size: 32px;
-  line-height: 21px;
-  font-weight: 400;
-  position: relative;
-  width: 326px;
-  height: 57px;
-  text-overflow: ellipsis;
-  overflow: visible;
-}
-.div-6-span {
-  color: #121417;
-  font-family: "NotoSerif-DisplayBold", sans-serif;
-  font-size: 32px;
-  line-height: 21px;
-  font-weight: 400;
-}
-.div-6-span2 {
-  color: #f6fbff;
-  font-family: "NotoSerif-DisplayBold", sans-serif;
-  font-size: 32px;
-  line-height: 21px;
-  font-weight: 400;
-}
+

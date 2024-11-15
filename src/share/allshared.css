@@ -1,3 +1,62 @@
+.back-button {
+    background: #a3cca2;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 33px;
+    top: 40px;
+    box-shadow: none;
+    width: 188px;
+    height: 82px;
+}
+
+.back-button:hover {
+    color: white;
+    background-color: #ff004d;
+    transform: scale(1.05);
+    overflow: visible;
+}
+
+.call-button {
+    width: 331px;           /* Take the full width of the container */
+    height: 100%;          /* Take the full height of the container */
+    font-size: 30px;      /* Adjust to fit text within the container */
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    background-color: #a3cca2; /* Button background */
+    color: #000000;            /* Text color */
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    overflow: visible;
+}
+
+.call-button:hover {
+    color: white;
+    background-color: #ff004d;
+    transform: scale(1.05);
+    overflow: visible;
+}
+
+.call-button-frame {
+    background: transparent;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 343px;
+    height: 61px;
+    min-width: 84px;
+    max-width: 480px;
+    position: absolute;
+    left: 19px;
+    top: 760px;
+    overflow: visible;
+}
+
 .deagu-logo {
     width: 85px;
     height: 103px;

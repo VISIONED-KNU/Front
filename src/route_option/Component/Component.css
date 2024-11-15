@@ -66,7 +66,7 @@
   line-height: 55px;
   font-weight: bold;
   position: absolute;
-  left: 45px;
+  left: 27px;
   top: 443px;
   width: 338px;
   height: 72px;
@@ -161,17 +161,47 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   filter: blur(2px);
 }
-.div .rectangle-10 {
-  background: #a3cca2;
+
+.div .rectangle-11 {
+  background: transparent;
   border-radius: 20px;
   width: 139px;
   height: 95px;
-  position: absolute;
-  left: 35px;
+  // position: absolute;
+  left: 213px;
   top: 619px;
 }
-.div .rectangle-11 {
-  background: #ffbbbb;
+.div .div6 {
+  color: #000000;
+  background-color: #a3cca2;
+  text-align: center;
+  font-family: "NotoSerif-DisplayBold", sans-serif;
+  font-size: 36px;
+  line-height: 18px;
+  font-weight: bold;
+  position: absolute;
+  border-radius: 20px;
+  width: 139px;
+  height: 95px;
+  left: 35px;
+  top: 619px;
+  overflow: visible;
+
+}
+.div .div6:hover {
+  color: white;
+  background-color: #ff004d;
+  transform: scale(1.10);
+  overflow: visible;
+}
+.div .div7 {
+  color: #ffffff;
+  background-color: #ff004d;
+  text-align: center;
+  font-family: "NotoSerif-DisplayBold", sans-serif;
+  font-size: 36px;
+  line-height: 18px;
+  font-weight: bold;
   border-radius: 20px;
   width: 139px;
   height: 95px;
@@ -179,41 +209,17 @@
   left: 213px;
   top: 619px;
 }
-.div .div6 {
-  color: #000000;
-  text-align: left;
-  font-family: "NotoSerif-DisplayBold", sans-serif;
-  font-size: 36px;
-  line-height: 18px;
-  font-weight: bold;
-  position: absolute;
-  left: 86px;
-  top: 656px;
-  width: 52px;
-  height: 31px;
-}
-.div .div6:hover {
-  color: white;
-  background-color: #ff004d;
-  transform: scale(1.05);
-  overflow: visible;
-}
-.div .div7 {
-  color: #000000;
-  text-align: left;
-  font-family: "NotoSerif-DisplayBold", sans-serif;
-  font-size: 36px;
-  line-height: 18px;
-  font-weight: bold;
-  position: absolute;
-  left: 235px;
-  top: 656px;
-  width: 117px;
-  height: 31px;
-}
 .div .div7:hover {
   color: #ffffff;
-  background-color: #ff004d;
-  transform: scale(1.05);
+  background-color: #88072e;
+  transform: scale(1.10);
   overflow: visible;
+}
+
+.mic {
+  width: 160px;
+  height: 160px;
+  margin-top: 245px;
+  margin-left: 105px;
+
 }

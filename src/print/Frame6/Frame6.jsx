@@ -34,10 +34,8 @@ export const Frame6 = ({ className, ...props }) => {
 
           <div className="call-button-frame">
               <div className="div2">
-            <span>
               <CallButton
-                  onClick={handleNavigateToCall} label="안내원 도움 요청"/>
-            </span>{" "}
+                  onClick={handleNavigateToCall}/>
               </div>
           </div>
           <BackButton

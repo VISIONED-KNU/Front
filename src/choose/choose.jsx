@@ -1,12 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import TypewriterText from "./TypewriterText";
 import CallButton from "../share/CallButton.jsx";
-import "./Main.css";
+import BackButton from "../share/BackButton";
 import "../share/allshared.css";
 
-export const Main = ({ className, ...props }) => {
+export const choose = ({ className, ...props }) => {
     const navigate = useNavigate();
+
+    const handleGoBack = () => {
+        navigate(-1); // Navigate to the previous page
+    };
 
     const handleNavigate = () => {
         navigate("/voice");
@@ -15,6 +18,7 @@ export const Main = ({ className, ...props }) => {
     const handleNavigateToCall = () => {
         navigate("/call");
     }
+
 
     return (
         <div className={"main " + className}>
@@ -40,6 +44,10 @@ export const Main = ({ className, ...props }) => {
             </div>
             <div className="line-upper"></div>
             <div className="line-lower"></div>
+            <BackButton
+                onClick={handleGoBack} label="뒤로가기"/>
         </div>
     );
 };
+
+export default choose;
