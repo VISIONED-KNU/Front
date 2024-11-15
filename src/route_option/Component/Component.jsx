@@ -23,7 +23,7 @@ export const Component = ({ className, ...props }) => {
     };
 
     const handleNavigateToRoute = () => {
-        navigate("/taxi_find");
+        navigate("/route");
     };
 
   return (

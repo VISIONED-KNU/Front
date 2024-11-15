@@ -255,8 +255,8 @@
   overflow: hidden;
 }
 .group-8 .image-insert {
-  width: 8%;
-  height: 8%;
+  width: 85px;
+  height: 85px;
   position: fixed;
   left: 27px;
   object-fit: cover;

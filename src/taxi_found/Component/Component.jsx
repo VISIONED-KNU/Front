@@ -36,14 +36,13 @@ export const Component = ({ className, ...props }) => {
           </div>
 
 
-
           <div className="show-big-text">
               <br/>
               근처에 있는
               <br/>
               택시를 찾았어요.{" "}
               <br/>
-              8분 후 도착 예정
+              8분 후 도착 예정.
           </div>
 
           <div className="taxi-info-frame">

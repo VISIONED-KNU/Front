@@ -173,6 +173,20 @@
   top: 650px;
   overflow: visible;
 }
+.main .test-button {
+  font-color: #121417;
+  width: 100px;           /* Take the full width of the container */
+  height: 100%;          /* Take the full height of the container */
+  font-size: 30px;      /* Adjust to fit text within the container */
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  background-color: #b6b6b6; /* Button background */
+  color: #000000;            /* Text color */
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  overflow: visible;
+}
 
 
 

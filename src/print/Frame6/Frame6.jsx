@@ -27,9 +27,9 @@ export const Frame6 = ({ className, ...props }) => {
               <br/>
               약도가 출력되었습니다.
               <br/>
-              하단의 출력창을
+              아래의 출력창을
               <br/>
-              확인하세요.{" "}
+              확인해주세요.{" "}
           </div>
 
           <div className="call-button-frame">

@@ -43,7 +43,7 @@ export const Main = ({ className, ...props }) => {
                 <CallButton onClick={handleNavigateToCall}/>
             </div>
             <div className="test-button-frame">
-                <CallButton onClick={handleNavigateToTest} label="test"/>
+                <button className="test-button" onClick={handleNavigateToTest}>test</button>
             </div>
             <div className="line-upper"></div>
             <div className="line-lower"></div>
