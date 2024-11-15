@@ -6,7 +6,7 @@ import './vars.css';
 
 
 import App from "./App"; // Assuming App is the main component
-import { Main } from "./Main/Main";
+import { Main } from "./main";
 import ChooseApp from "./choose/choose.jsx";
 import VoiceApp from "./voice/App.jsx"; // Adjust path as necessary
 import RouteApp from "./route/App.jsx";

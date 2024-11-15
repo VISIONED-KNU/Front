@@ -58,7 +58,7 @@ export const Component = ({ className, ...props }) => {
 
           <div className="print_taxi_to">
               <CallButton
-                  onClick={handleNavigateToPrintTaxi} label="약도 출력"/>
+                  onClick={handleNavigateToPrintTaxi} label="기사님 호출"/>
           </div>
 
       </div>

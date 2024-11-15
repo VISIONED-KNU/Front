@@ -1,9 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import TypewriterText from "./TypewriterText";
-import CallButton from "../share/CallButton.jsx";
-import "./Main.css";
-import "../share/allshared.css";
+import CallButton from "./share/CallButton.jsx";
+import "./main.css";
+import "./share/allshared.css";
 
 export const Main = ({ className, ...props }) => {
     const navigate = useNavigate();
