@@ -1,9 +1,9 @@
 import "./Component.css";
+import React, {useState, useContext} from "react";
 import { useNavigate } from "react-router-dom";
 import CallButton from "../../share/CallButton.jsx";
 import BackButton from "../../share/BackButton.jsx";
 import "../../share/allshared.css"
-import React, {useState} from "react";
 
 export const Component = ({ className, ...props }) => {
 
@@ -23,7 +23,7 @@ export const Component = ({ className, ...props }) => {
     };
 
     const handleNavigateToRoute = () => {
-        navigate("/route"); // Update this path if "App.jsx" has a different route, e.g., "/app"
+        navigate("/taxi_find");
     };
 
   return (

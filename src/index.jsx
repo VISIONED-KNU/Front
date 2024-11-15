@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './styles.css';
 import './vars.css';
 
+
 import App from "./App"; // Assuming App is the main component
 import { Main } from "./Main/Main";
 import ChooseApp from "./choose/choose.jsx";
