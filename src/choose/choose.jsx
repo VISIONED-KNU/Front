@@ -1,7 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import CallButton from "../share/CallButton.jsx";
-import BackButton from "../share/BackButton";
+import BackButton from "../share/BackButton.jsx";
+import "./choose.css";
 import "../share/allshared.css";
 
 export const choose = ({ className, ...props }) => {
@@ -19,26 +20,34 @@ export const choose = ({ className, ...props }) => {
         navigate("/call");
     }
 
+    // test용 임시 함수 생성
+    const handleNavigateToFindingTaxi = () => {
+        navigate("/taxi_find");
+    }
 
     return (
-        <div className={"main " + className}>
+        <div className={"choose " + className}>
             <img
                 className="deagu-logo"
                 src="deagu-logo.png"
             />
             <div className="show-big-text">
-                도착지 약도
+                이동수단을
                 <br/>
-                출력 서비스를
-                <br/>
-                시작하겠습니다.{" "}
+                선택해주세요.
             </div>
-            <div className="depth-3-frame-1">
-                <br/>
+            <div className="frame-1">
                 <button onClick={handleNavigate} className="navigate-button">
-                    시작하기
+                    대중교통
                 </button>
             </div>
+
+            <div className="frame-2">
+                <button onClick={handleNavigateToFindingTaxi} className="navigate-button">
+                    택시
+                </button>
+            </div>
+
             <div className="call-button-frame">
                 <CallButton onClick={handleNavigateToCall}/>
             </div>

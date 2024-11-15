@@ -9,7 +9,7 @@ export const Main = ({ className, ...props }) => {
     const navigate = useNavigate();
 
     const handleNavigate = () => {
-        navigate("/voice");
+        navigate("/choose");
     };
 
     const handleNavigateToCall = () => {
