@@ -27,11 +27,11 @@ export const Main = ({ className, ...props }) => {
                 src="deagu-logo.png"
             />
             <div className="show-big-text">
-                도착지 약도
+                간편한 길안내와
                 <br/>
-                출력 서비스를
+                택시 호출이
                 <br/>
-                시작하겠습니다.{" "}
+                필요하시나요?
             </div>
             <div className="depth-3-frame-1">
                 <br/>
