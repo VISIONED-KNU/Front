@@ -16,6 +16,10 @@ export const Main = ({ className, ...props }) => {
         navigate("/call");
     }
 
+    const handleNavigateToTest = () => {
+        navigate("/test");
+    }
+
     return (
         <div className={"main " + className}>
             <img
@@ -37,6 +41,9 @@ export const Main = ({ className, ...props }) => {
             </div>
             <div className="call-button-frame">
                 <CallButton onClick={handleNavigateToCall}/>
+            </div>
+            <div className="test-button-frame">
+                <CallButton onClick={handleNavigateToTest} label="test"/>
             </div>
             <div className="line-upper"></div>
             <div className="line-lower"></div>

@@ -17,6 +17,7 @@ import PrintApp from "./print/App.jsx";
 import TaxiFindApp from "./taxi_find/App.jsx";
 import TaxiFoundApp from "./taxi_found/App.jsx";
 import TaxiPrintApp from "./taxi_print/App.jsx";
+import TestApp from "./test/Test.jsx";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -37,6 +38,7 @@ root.render(
                 <Route path="/taxi_find" element={<TaxiFindApp />} />
                 <Route path="/taxi_found" element={<TaxiFoundApp />} />
                 <Route path="/taxi_print" element={<TaxiPrintApp />} />
+                <Route path="/test" element={<TestApp />} />
             </Routes>
         </Router>
     </StrictMode>

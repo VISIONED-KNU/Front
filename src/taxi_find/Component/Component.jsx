@@ -39,11 +39,11 @@ export const Component = ({ className, ...props }) => {
 
             <div className="show-big-text">
                 <br/>
-                동대구역으로
+                주위에 있는
                 <br/>
-                가는 택시를
+                택시를
                 <br/>
-                찾아볼까요?
+                호출할까요?
             </div>
 
             <button className="div6"

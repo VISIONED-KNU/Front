@@ -156,4 +156,23 @@
 }
 
 
+.main .test-button-frame {
+  background: transparent;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 343px;
+  height: 61px;
+  min-width: 84px;
+  max-width: 480px;
+  position: absolute;
+  left: 19px;
+  top: 650px;
+  overflow: visible;
+}
+
+
 
